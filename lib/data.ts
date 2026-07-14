@@ -11,7 +11,7 @@ export const services: Service[] = [
   {
     id: 'signature-cut',
     name: 'Signature Cut',
-    price: 55,
+    price: 150,
     duration: '45 min',
     description:
       'A fully bespoke haircut tailored to your face shape and lifestyle, finished with a hot-towel refresh and styling.',
@@ -20,7 +20,7 @@ export const services: Service[] = [
   {
     id: 'skin-fade',
     name: 'Precision Skin Fade',
-    price: 60,
+    price: 200,
     duration: '50 min',
     description:
       'Seamless, blade-sharp fades executed with meticulous detail for a crisp, modern silhouette.',
@@ -28,7 +28,7 @@ export const services: Service[] = [
   {
     id: 'royal-shave',
     name: 'Royal Hot-Towel Shave',
-    price: 45,
+    price: 300,
     duration: '40 min',
     description:
       'The classic straight-razor ritual with warm towels, pre-shave oil, and a soothing balm finish.',
@@ -37,7 +37,7 @@ export const services: Service[] = [
   {
     id: 'beard-sculpt',
     name: 'Beard Sculpt & Trim',
-    price: 35,
+    price: 350,
     duration: '30 min',
     description:
       'Expert shaping, line-up, and conditioning to keep your beard sharp, healthy, and defined.',
@@ -45,7 +45,7 @@ export const services: Service[] = [
   {
     id: 'father-son',
     name: 'Father & Son',
-    price: 85,
+    price: 350,
     duration: '60 min',
     description:
       'Two cuts, one experience. A shared session designed for the gentlemen of every generation.',
@@ -53,7 +53,7 @@ export const services: Service[] = [
   {
     id: 'grey-blending',
     name: 'Grey Blending',
-    price: 40,
+    price: 250,
     duration: '35 min',
     description:
       'Subtle, natural-looking colour work that softens grey while keeping your look effortless.',
@@ -205,9 +205,9 @@ export const testimonials: Testimonial[] = [
   {
     id: 't2',
     name: 'Andre Laurent',
-    title: 'Creative Director',
+    title: 'Mayor',
     quote:
-      'From the espresso on arrival to the hot-towel finish, every detail is considered. NOIR sets the standard.',
+      'From the espresso on arrival to the hot-towel finish, every detail is considered.  sets the standard.',
     initials: 'AL',
   },
   {
@@ -258,6 +258,5 @@ export const navLinks = [
   { href: '/services', label: 'Services' },
   { href: '/products', label: 'Products' },
   { href: '/gallery', label: 'Gallery' },
-  { href: '/barbers', label: 'Barbers' },
   { href: '/contact', label: 'Contact' },
 ]

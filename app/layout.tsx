@@ -19,20 +19,28 @@ const sora = Sora({
 })
 
 export const metadata: Metadata = {
-  title: 'NOIR — The Art of the Modern Gentleman | Luxury Barbershop',
+  title: 'PUSTURA PH ',
   description:
-    'NOIR is a premium barbershop delivering precision cuts, hot-towel shaves, and elevated grooming in an atmosphere of quiet luxury. Book your appointment today.',
-  generator: 'v0.app',
+    'PUSTURA PH is a premium barbershop delivering precision cuts, hot-towel shaves, and elevated grooming in an atmosphere of quiet luxury. Book your appointment today.',
+    icons: {
+    icon: [
+      { url: '/images/logo.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/logo.png', sizes: '192x192', type: 'image/png' }, 
+    ],
+    shortcut: '/images/logo.png',
+    apple: { url: '/images/logo.png', sizes: '180x180', type: 'image/png' }, 
+  },
+
   keywords: [
     'luxury barbershop',
     'premium haircut',
     'hot towel shave',
     'mens grooming',
     'beard trim',
-    'NOIR barber',
+    'PUSTURA PH barber',
   ],
   openGraph: {
-    title: 'NOIR — The Art of the Modern Gentleman',
+    title: 'PUSTURA PH — The Art of the Modern Cut',
     description:
       'Precision cuts, hot-towel shaves, and elevated grooming in an atmosphere of quiet luxury.',
     type: 'website',

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight, Star } from 'lucide-react'
+import {Reveal} from '@/components/reveal'
 
 export function Hero() {
   return (
@@ -28,18 +29,17 @@ export function Hero() {
               ))}
             </span>
             <span className="tracking-wide">
-              Rated 4.9 by 2,400+ gentlemen
+              Rated 4.9 by 2,400+ Clients
             </span>
           </div>
 
           <h1 className="mt-6 text-balance font-display text-5xl font-extrabold leading-[0.98] tracking-tight text-foreground sm:text-7xl lg:text-8xl">
             The Art of the
-            <span className="block text-gold">Modern Gentleman</span>
+            <span className="block text-gold">Modern <br />Cut</span>
           </h1>
 
           <p className="mt-7 max-w-xl text-pretty text-lg leading-relaxed text-foreground/80 sm:text-xl">
-            Precision cuts, timeless shaves, and elevated grooming — delivered
-            in an atmosphere of quiet luxury by masters of the craft.
+            Distinct styles, master craftsmanship, and premium grooming — personalizing every cut to match your unique identity and confidence.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">

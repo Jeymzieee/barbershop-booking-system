@@ -38,7 +38,7 @@ export function ProductCard({ product }: { product: Product }) {
         </p>
         <div className="mt-5 flex items-center justify-between">
           <span className="font-display text-lg font-extrabold text-foreground">
-            £{product.price}
+            ₱{product.price}
           </span>
           <button
             type="button"

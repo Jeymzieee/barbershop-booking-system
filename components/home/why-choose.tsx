@@ -55,9 +55,9 @@ export function WhyChoose() {
 
           <div>
             <SectionHeading
-              eyebrow="Why NOIR"
+              eyebrow="Why PUSTURA.PH"
               title="More than a haircut — a standard"
-              description="We built NOIR for gentlemen who value their time and their appearance in equal measure."
+              description="We built PUSTURA.PH for people who value their time and their appearance in equal measure."
             />
             <div className="mt-10 grid gap-x-8 gap-y-9 sm:grid-cols-2">
               {features.map((f, i) => (

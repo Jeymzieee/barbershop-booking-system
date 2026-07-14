@@ -39,7 +39,7 @@ export function ProductsGrid() {
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {filtered.map((product, i) => (
-          <Reveal key={product.id} delay={i * 50}>
+          <Reveal key={product.id} delay={i * 80}>
             <ProductCard product={product} />
           </Reveal>
         ))}

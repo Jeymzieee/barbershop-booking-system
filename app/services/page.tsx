@@ -60,7 +60,7 @@ export default function ServicesPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
           <div>
             <Eyebrow>The NOIR Experience</Eyebrow>
-            <Reveal delay={80}>
+            <Reveal delay={60}>
               <h2 className="mt-5 text-balance font-display text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl">
                 Every visit follows a considered ritual
               </h2>

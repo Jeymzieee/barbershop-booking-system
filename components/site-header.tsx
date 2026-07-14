@@ -7,6 +7,7 @@ import { Menu, X, Scissors } from 'lucide-react'
 import { navLinks } from '@/lib/data'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { cn } from '@/lib/utils'
+import Image from "next/image";
 
 export function SiteHeader() {
   const pathname = usePathname()
@@ -46,11 +47,17 @@ export function SiteHeader() {
           className="group flex items-center gap-2.5"
           aria-label="NOIR home"
         >
-          <span className="flex size-9 items-center justify-center rounded-full border border-gold/50 text-gold transition-colors group-hover:bg-gold group-hover:text-gold-foreground">
-            <Scissors className="size-4" />
+          <span className="flex size-14 items-center justify-center rounded-full border border-gold/50 text-gold transition-colors group-hover:bg-gold group-hover:text-gold-foreground">
+            <Image
+              src="/images/logo.png"
+              alt="Pustura PH"
+              width={45}
+              height={45}
+              className="transition-all duration-300 delay-0 ease-in-out group-hover:brightness-0 group-hover:scale-105"
+            />
           </span>
-          <span className="font-display text-lg font-extrabold tracking-[0.2em] text-foreground">
-            NOIR
+          <span className=" font-display text-lg font-extrabold tracking-[0.2em] text-foreground">
+            PUSTURA.PH
           </span>
         </Link>
 

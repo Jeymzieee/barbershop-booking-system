@@ -33,7 +33,7 @@ export function ServiceCard({ service }: { service: Service }) {
       <div className="relative mt-7 flex items-end justify-between border-t border-border/60 pt-5">
         <div>
           <p className="font-display text-2xl font-extrabold text-foreground">
-            £{service.price}
+            ₱{service.price}
           </p>
           <p className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
             <Clock className="size-3.5" />
