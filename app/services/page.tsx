@@ -11,7 +11,7 @@ import { Scissors, Droplets, Sparkles, Crown } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Explore NOIR barbershop services — signature cuts, skin fades, hot-towel shaves, beard sculpting, and more. Transparent pricing and duration.',
+    'Explore PUSTURA barbershop services — signature cuts, skin fades, hot-towel shaves, beard sculpting, and more. Transparent pricing and duration.',
 }
 
 const process = [
@@ -59,7 +59,7 @@ export default function ServicesPage() {
       <section className="border-y border-border/60 bg-card/40">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
           <div>
-            <Eyebrow>The NOIR Experience</Eyebrow>
+            <Eyebrow>The PUSTURA Experience</Eyebrow>
             <Reveal delay={60}>
               <h2 className="mt-5 text-balance font-display text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl">
                 Every visit follows a considered ritual

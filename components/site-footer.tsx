@@ -3,6 +3,7 @@ import { Scissors, MapPin, Phone, Mail, ArrowUpRight } from 'lucide-react'
 // NOIR barbershop footer
 import { navLinks } from '@/lib/data'
 import { InstagramIcon, FacebookIcon, XIcon } from '@/components/social-icons'
+import Image from "next/image";
 
 export function SiteFooter() {
   return (
@@ -11,16 +12,24 @@ export function SiteFooter() {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.1fr]">
           <div className="max-w-sm">
             <div className="flex items-center gap-2.5">
-              <span className="flex size-9 items-center justify-center rounded-full border border-gold/50 text-gold">
-                <Scissors className="size-4" />
+              <span className="flex size-13 items-center justify-center rounded-full border border-gold/50 text-gold">
+              
+              <div className="relative overflow-hidden size-9 flex items-center justify-center bg-background/50">
+                <Image
+                  src="/images/logo.png"
+                  alt="Pustura Ph Logo"
+                  width={36}
+                  height={36}
+                  className="object-cover size-full"
+                />
+              </div>
               </span>
               <span className="font-display text-lg font-extrabold tracking-[0.2em]">
-                NOIR
+                Pustura Ph
               </span>
             </div>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-              The art of the modern gentleman. Precision cuts, timeless shaves,
-              and elevated grooming in an atmosphere of quiet luxury.
+              Distinct styles, master craftsmanship, and premium grooming — personalizing every cut to match your unique identity and confidence.
             </p>
             <Link
               href="/booking"
@@ -55,16 +64,16 @@ export function SiteFooter() {
             </h3>
             <ul className="mt-5 space-y-3 text-sm text-foreground/80">
               <li className="flex justify-between gap-4">
-                <span>Mon – Fri</span>
-                <span className="text-muted-foreground">9 – 8</span>
+                <span>Sun – Sat</span>
+                <span className="text-muted-foreground">9am – 7pm</span>
               </li>
               <li className="flex justify-between gap-4">
                 <span>Saturday</span>
-                <span className="text-muted-foreground">9 – 6</span>
+                <span className="text-muted-foreground">9am – 6pm</span>
               </li>
               <li className="flex justify-between gap-4">
-                <span>Sunday</span>
-                <span className="text-muted-foreground">Closed</span>
+                <span>Monday</span>
+                <span className="text-muted-foreground">Close</span>
               </li>
             </ul>
           </div>
@@ -76,18 +85,18 @@ export function SiteFooter() {
             <ul className="mt-5 space-y-3.5 text-sm text-foreground/80">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-gold" />
-                <span>48 Marlow Street, Mayfair, London W1</span>
+                <span>Silang Cavite</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="size-4 shrink-0 text-gold" />
                 <a href="tel:+442071234567" className="hover:text-gold">
-                  +44 20 7123 4567
+                  +63 2 1234 5678
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="size-4 shrink-0 text-gold" />
                 <a href="mailto:hello@noir.co" className="hover:text-gold">
-                  hello@noir.co
+                  Pustura.ph.com
                 </a>
               </li>
             </ul>
@@ -107,7 +116,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-border/60 pt-8 text-sm text-muted-foreground sm:flex-row">
-          <p>© {new Date().getFullYear()} NOIR Barber Co. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Pustura Ph Co. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
             Crafted with precision in Mayfair
           </p>
